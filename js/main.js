@@ -45,7 +45,10 @@ const app = new Vue({
                 this.currentIndex--;
             }
         },
-    },    
+        changeImage(index){
+            this.currentIndex = index;
+        },
+    },  
 });
 // Descrizione:
 // Partendo dal markup HTML allegato creare uno slider di immagini in VueJS.
